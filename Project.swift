@@ -30,7 +30,6 @@ let project = Project(
                 .external(name: "SwiftUIIntrospect"),
                 .external(name: "Algorithms"),
                 .external(name: "Pendo"),
-                .external(name: "RecordModelMacro"),
                 .external(name: "RealmSwift"),
                 .project(
                     target: "MyKit",
