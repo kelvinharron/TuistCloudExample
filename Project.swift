@@ -20,7 +20,7 @@ let project = Project(
             product: .app,
             bundleId: "io.tuist.TuistCloudExample",
             deploymentTargets: .iOS("17.4"),
-            infoPlist: .file(path: "Targets/EHR/Sources/Config/info.plist"),
+            infoPlist: .file(path: "TuistCloudExample/Sources/Config/info.plist"),
             sources: ["TuistCloudExample/Sources/**"],
             resources: ["TuistCloudExample/Resources/**"],
             dependencies: [
@@ -78,6 +78,6 @@ public extension Configuration {
     )
     static let unitTestConfiguration: Configuration = .debug(
         name: "UnitTest",
-        xcconfig: "TuistCloudExample/Sources/Config/test.xcconfig"
+        xcconfig: "TuistCloudExample/Tests/Config/test.xcconfig"
     )
 }

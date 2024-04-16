@@ -1,5 +1,5 @@
 import ProjectDescription
 
 let config = Config(
-    cloud: .cloud(projectId: "kelvin.harron/TuistCloudExample")
+    cloud: .cloud(projectId: "kelvinharrontuist/TuistCloudExample")
 )
